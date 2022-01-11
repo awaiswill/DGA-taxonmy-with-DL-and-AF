@@ -7,4 +7,5 @@ Then in 2018 hybrid approches of LSTM, BiLSTM and CNN networks are implemented w
 
 The Ensembled model achieved an optimal performance and we started to study all hyperparameters to optimize these implemented models. LSTM networks has property of retaining sequential information and CNN networks has property of retianing spatial information of input vectors. Addition of Attention model to LSTM networks further enhances its processing of sequential information.
 
-This ensemble model approach has shown optimum performance and motivated our research work to focus on one model at a time for optimization. We focused on LSTM networks to be improved with its hyperparameters. In hypermeters we further narrowed to activation functions. Activation Functions are broadly categorised into fixed shape and rectifier shape functions. 
+This ensemble model approach has shown optimum performance and motivated our research work to focus on one model at a time for optimization. We focused on LSTM networks to be improved with its hyperparameters. In hypermeters we further narrowed to activation functions. Activation Functions are broadly categorised into fixed shape Non linear and rectifier shape activation functions. 
+We focus on LSTM networks and in LSTM network we focus on fixed shape activation functions. Popular fixed shape Non linear AFs. 
