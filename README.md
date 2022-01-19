@@ -11,3 +11,4 @@ This ensemble model approach has shown optimum performance and motivated our res
 We focus on LSTM networks and in LSTM network we focus on fixed shape activation functions. Popular fixed shape Non linear AFs include sigmoid AF, Hyper tangent (TanH) and Swish AFs. Apart from these legacy AFs, we pitched a new fixed shape AF named as Zash AF.  Zash AF is given as,
 
 f(x)=x/(x+e^(-x) )
+
