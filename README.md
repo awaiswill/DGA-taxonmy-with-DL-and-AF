@@ -12,3 +12,4 @@ We focus on LSTM networks and in LSTM network we focus on fixed shape activation
 
 f(x)=x/(x+e^(-x) )
 
+It has shown nearly equal performance to tanh function.
