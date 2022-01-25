@@ -12,4 +12,4 @@ We focus on LSTM networks and in LSTM network we focus on fixed shape activation
 
 f(x)=x/(x+e^(-x) )
 
-It has shown nearly equal performance to tanh function. As we know that Tanh is the default AF used in RNN and LSTM networks, however its other variant Penalised Tanh  and later Swish joined the race of fixed shaped AFs for LSTM networks.
+It has shown nearly equal performance to tanh function. As we know that Tanh is the default AF used in RNN and LSTM networks, however its other variant Penalised Tanh  and later Swish joined the race of fixed shaped AFs for LSTM networks. Foregoing in view, we explored a near equal performance fixed shape AF and pitched it against Tanh, swish and penalised Tanh AF. 
