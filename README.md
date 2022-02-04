@@ -19,3 +19,4 @@ Apart from these legacy AFs, we pitched a new fixed shape AF named as Zash AF.  
 ## f(x)=x/(x+e^(-x) )
 
 It has shown nearly equal performance to tanh function. As we know that Tanh is the default AF used in RNN and LSTM networks, however its other variant Penalised Tanh  and later Swish joined the race of fixed shaped AFs for LSTM networks. Foregoing in view, we explored a near equal performance of a fixed shape AF and pitched it against Tanh, swish and penalised Tanh AF. We named it zash Activation Function.
+Applying all legacy and newly discovered fixed AFs in DGA detection LSTM networks of ensemble model and analysing their performance for comparison.
