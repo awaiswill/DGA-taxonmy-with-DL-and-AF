@@ -22,3 +22,4 @@ It has shown nearly equal performance to tanh function. As we know that Tanh is 
 Applying all legacy and newly discovered fixed shaped AFs in DGA detection LSTM networks of ensemble model and analysing their performance for comparison.
 Fixed shape AFs work better with RNN/ LSTM networks due to sequential processing of text. Temporal relationships are captured for feature extraction of DNS texts by LSTM networks. 
 Switching AFS in BiLSTM models give Behaviour analysis of fixed shape AFs.
+123
