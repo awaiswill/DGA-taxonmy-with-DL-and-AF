@@ -1,4 +1,4 @@
-### DGA Detection with DL Optimising Activation Functions
+### DGA Detection with DL Optimisation with Activation Functions
 
 This work is associated with work on Domain Generating Algorithm (DGA) malware detection. 
 DGA detection is based on deep learning hybrid model of CNN, LSTM and Attention models. 
@@ -22,4 +22,4 @@ It has shown nearly equal performance to tanh function. As we know that Tanh is 
 Applying all legacy and newly discovered fixed shaped AFs in DGA detection LSTM networks of ensemble model and analysing their performance for comparison.
 Fixed shape AFs work better with RNN/ LSTM networks due to sequential processing of text. Temporal relationships are captured for feature extraction of DNS texts by LSTM networks. 
 Switching AFS in BiLSTM models give Behaviour analysis of fixed shape AFs.
-Fixed Shape Activation Function
+Fixed Shape Activation Function are more stable for performance of LSTM neural networks.
