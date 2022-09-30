@@ -129,10 +129,3 @@ F1 0.9345104951064672
 precision 0.9401865617581829
 recall 0.9401865617581829
 F1 0.9401865617581829
-Normalized confusion matrix
-<Figure size 1728x1584 with 0 Axes>
-
-Train time: 0:27:01.658536
-Predict time: 0:00:09.695966
-
-
