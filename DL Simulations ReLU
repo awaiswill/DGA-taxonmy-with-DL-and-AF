@@ -1,0 +1,138 @@
+RELU @20 Epochs
+
+Train on 969072 samples, validate on 107675 samples
+Epoch 1/20
+968704/969072 [============================>.] - ETA: 0s - loss: 1.3346 - acc: 0.5856 - categorical_accuracy: 0.5856 - precision: 0.7030 - recall: 0.3763 - fmeasure: 0.4323
+Epoch 00001: val_loss improved from inf to 0.82772, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 82s 85us/sample - loss: 1.3344 - acc: 0.5856 - categorical_accuracy: 0.5856 - precision: 0.7031 - recall: 0.3766 - fmeasure: 0.4326 - val_loss: 0.8277 - val_acc: 0.7475 - val_categorical_accuracy: 0.7475 - val_precision: 0.8468 - val_recall: 0.6763 - val_fmeasure: 0.7520
+Epoch 2/20
+969072/969072 [==============================] - ETA: 0s - loss: 0.7959 - acc: 0.7576 - categorical_accuracy: 0.7576 - precision: 0.8544 - recall: 0.6912 - fmeasure: 0.7641
+Epoch 00002: val_loss improved from 0.82772 to 0.70267, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.7959 - acc: 0.7576 - categorical_accuracy: 0.7576 - precision: 0.8544 - recall: 0.6912 - fmeasure: 0.7641 - val_loss: 0.7027 - val_acc: 0.7855 - val_categorical_accuracy: 0.7855 - val_precision: 0.8735 - val_recall: 0.7275 - val_fmeasure: 0.7938
+Epoch 3/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.6720 - acc: 0.7961 - categorical_accuracy: 0.7961 - precision: 0.8809 - recall: 0.7363 - fmeasure: 0.8020
+Epoch 00003: val_loss improved from 0.70267 to 0.56146, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.6720 - acc: 0.7961 - categorical_accuracy: 0.7961 - precision: 0.8809 - recall: 0.7363 - fmeasure: 0.8021 - val_loss: 0.5615 - val_acc: 0.8310 - val_categorical_accuracy: 0.8310 - val_precision: 0.9023 - val_recall: 0.7814 - val_fmeasure: 0.8375
+Epoch 4/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.5723 - acc: 0.8256 - categorical_accuracy: 0.8256 - precision: 0.8980 - recall: 0.7748 - fmeasure: 0.8318
+Epoch 00004: val_loss improved from 0.56146 to 0.49036, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.5723 - acc: 0.8256 - categorical_accuracy: 0.8256 - precision: 0.8980 - recall: 0.7748 - fmeasure: 0.8318 - val_loss: 0.4904 - val_acc: 0.8502 - val_categorical_accuracy: 0.8502 - val_precision: 0.9100 - val_recall: 0.8093 - val_fmeasure: 0.8567
+Epoch 5/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.5139 - acc: 0.8433 - categorical_accuracy: 0.8433 - precision: 0.9057 - recall: 0.7993 - fmeasure: 0.8491
+Epoch 00005: val_loss improved from 0.49036 to 0.43492, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.5139 - acc: 0.8433 - categorical_accuracy: 0.8433 - precision: 0.9057 - recall: 0.7993 - fmeasure: 0.8491 - val_loss: 0.4349 - val_acc: 0.8692 - val_categorical_accuracy: 0.8692 - val_precision: 0.9223 - val_recall: 0.8305 - val_fmeasure: 0.8740
+Epoch 6/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4738 - acc: 0.8565 - categorical_accuracy: 0.8565 - precision: 0.9116 - recall: 0.8164 - fmeasure: 0.8613
+Epoch 00006: val_loss improved from 0.43492 to 0.40318, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.4738 - acc: 0.8565 - categorical_accuracy: 0.8565 - precision: 0.9116 - recall: 0.8164 - fmeasure: 0.8613 - val_loss: 0.4032 - val_acc: 0.8791 - val_categorical_accuracy: 0.8791 - val_precision: 0.9232 - val_recall: 0.8492 - val_fmeasure: 0.8847
+Epoch 7/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4420 - acc: 0.8668 - categorical_accuracy: 0.8668 - precision: 0.9169 - recall: 0.8294 - fmeasure: 0.8709
+Epoch 00007: val_loss improved from 0.40318 to 0.37181, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.4420 - acc: 0.8668 - categorical_accuracy: 0.8668 - precision: 0.9169 - recall: 0.8294 - fmeasure: 0.8709 - val_loss: 0.3718 - val_acc: 0.8878 - val_categorical_accuracy: 0.8878 - val_precision: 0.9292 - val_recall: 0.8566 - val_fmeasure: 0.8914
+Epoch 8/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4134 - acc: 0.8757 - categorical_accuracy: 0.8757 - precision: 0.9208 - recall: 0.8409 - fmeasure: 0.8790
+Epoch 00008: val_loss improved from 0.37181 to 0.34006, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.4133 - acc: 0.8757 - categorical_accuracy: 0.8757 - precision: 0.9208 - recall: 0.8409 - fmeasure: 0.8790 - val_loss: 0.3401 - val_acc: 0.8991 - val_categorical_accuracy: 0.8991 - val_precision: 0.9368 - val_recall: 0.8690 - val_fmeasure: 0.9016
+Epoch 9/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3881 - acc: 0.8830 - categorical_accuracy: 0.8830 - precision: 0.9238 - recall: 0.8514 - fmeasure: 0.8861
+Epoch 00009: val_loss improved from 0.34006 to 0.32179, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.3881 - acc: 0.8830 - categorical_accuracy: 0.8830 - precision: 0.9238 - recall: 0.8514 - fmeasure: 0.8861 - val_loss: 0.3218 - val_acc: 0.9031 - val_categorical_accuracy: 0.9031 - val_precision: 0.9335 - val_recall: 0.8807 - val_fmeasure: 0.9063
+Epoch 10/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3656 - acc: 0.8895 - categorical_accuracy: 0.8895 - precision: 0.9264 - recall: 0.8607 - fmeasure: 0.8923
+Epoch 00010: val_loss improved from 0.32179 to 0.29901, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.3656 - acc: 0.8895 - categorical_accuracy: 0.8895 - precision: 0.9264 - recall: 0.8607 - fmeasure: 0.8923 - val_loss: 0.2990 - val_acc: 0.9113 - val_categorical_accuracy: 0.9113 - val_precision: 0.9408 - val_recall: 0.8865 - val_fmeasure: 0.9129
+Epoch 11/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3466 - acc: 0.8952 - categorical_accuracy: 0.8952 - precision: 0.9287 - recall: 0.8684 - fmeasure: 0.8975
+Epoch 00011: val_loss improved from 0.29901 to 0.28117, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.3466 - acc: 0.8952 - categorical_accuracy: 0.8952 - precision: 0.9287 - recall: 0.8684 - fmeasure: 0.8975 - val_loss: 0.2812 - val_acc: 0.9162 - val_categorical_accuracy: 0.9162 - val_precision: 0.9413 - val_recall: 0.8949 - val_fmeasure: 0.9175
+Epoch 12/20
+969072/969072 [==============================] - ETA: 0s - loss: 0.3304 - acc: 0.8996 - categorical_accuracy: 0.8996 - precision: 0.9301 - recall: 0.8748 - fmeasure: 0.9016
+Epoch 00012: val_loss improved from 0.28117 to 0.27227, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.3304 - acc: 0.8996 - categorical_accuracy: 0.8996 - precision: 0.9301 - recall: 0.8748 - fmeasure: 0.9016 - val_loss: 0.2723 - val_acc: 0.9177 - val_categorical_accuracy: 0.9177 - val_precision: 0.9404 - val_recall: 0.8995 - val_fmeasure: 0.9195
+Epoch 13/20
+969072/969072 [==============================] - ETA: 0s - loss: 0.3168 - acc: 0.9036 - categorical_accuracy: 0.9036 - precision: 0.9318 - recall: 0.8808 - fmeasure: 0.9056
+Epoch 00013: val_loss improved from 0.27227 to 0.25355, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.3168 - acc: 0.9036 - categorical_accuracy: 0.9036 - precision: 0.9318 - recall: 0.8808 - fmeasure: 0.9056 - val_loss: 0.2536 - val_acc: 0.9241 - val_categorical_accuracy: 0.9241 - val_precision: 0.9459 - val_recall: 0.9043 - val_fmeasure: 0.9246
+Epoch 14/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3036 - acc: 0.9074 - categorical_accuracy: 0.9074 - precision: 0.9335 - recall: 0.8862 - fmeasure: 0.9092
+Epoch 00014: val_loss improved from 0.25355 to 0.24640, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.3036 - acc: 0.9074 - categorical_accuracy: 0.9074 - precision: 0.9335 - recall: 0.8862 - fmeasure: 0.9092 - val_loss: 0.2464 - val_acc: 0.9259 - val_categorical_accuracy: 0.9259 - val_precision: 0.9455 - val_recall: 0.9072 - val_fmeasure: 0.9259
+Epoch 15/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.2918 - acc: 0.9106 - categorical_accuracy: 0.9106 - precision: 0.9351 - recall: 0.8908 - fmeasure: 0.9124
+Epoch 00015: val_loss improved from 0.24640 to 0.23879, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.2918 - acc: 0.9106 - categorical_accuracy: 0.9106 - precision: 0.9351 - recall: 0.8908 - fmeasure: 0.9124 - val_loss: 0.2388 - val_acc: 0.9279 - val_categorical_accuracy: 0.9279 - val_precision: 0.9443 - val_recall: 0.9136 - val_fmeasure: 0.9287
+Epoch 16/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.2799 - acc: 0.9142 - categorical_accuracy: 0.9142 - precision: 0.9368 - recall: 0.8955 - fmeasure: 0.9157
+Epoch 00016: val_loss improved from 0.23879 to 0.22457, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.2799 - acc: 0.9142 - categorical_accuracy: 0.9142 - precision: 0.9368 - recall: 0.8955 - fmeasure: 0.9157 - val_loss: 0.2246 - val_acc: 0.9323 - val_categorical_accuracy: 0.9323 - val_precision: 0.9476 - val_recall: 0.9193 - val_fmeasure: 0.9332
+Epoch 17/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.2696 - acc: 0.9172 - categorical_accuracy: 0.9172 - precision: 0.9383 - recall: 0.8996 - fmeasure: 0.9185
+Epoch 00017: val_loss improved from 0.22457 to 0.22038, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.2696 - acc: 0.9172 - categorical_accuracy: 0.9172 - precision: 0.9383 - recall: 0.8997 - fmeasure: 0.9186 - val_loss: 0.2204 - val_acc: 0.9331 - val_categorical_accuracy: 0.9331 - val_precision: 0.9465 - val_recall: 0.9219 - val_fmeasure: 0.9340
+Epoch 18/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.2599 - acc: 0.9199 - categorical_accuracy: 0.9199 - precision: 0.9398 - recall: 0.9034 - fmeasure: 0.9212
+Epoch 00018: val_loss improved from 0.22038 to 0.20929, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 83us/sample - loss: 0.2598 - acc: 0.9199 - categorical_accuracy: 0.9199 - precision: 0.9399 - recall: 0.9034 - fmeasure: 0.9213 - val_loss: 0.2093 - val_acc: 0.9362 - val_categorical_accuracy: 0.9362 - val_precision: 0.9506 - val_recall: 0.9229 - val_fmeasure: 0.9365
+Epoch 19/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.2505 - acc: 0.9224 - categorical_accuracy: 0.9224 - precision: 0.9407 - recall: 0.9070 - fmeasure: 0.9235
+Epoch 00019: val_loss improved from 0.20929 to 0.20301, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.2505 - acc: 0.9224 - categorical_accuracy: 0.9224 - precision: 0.9407 - recall: 0.9070 - fmeasure: 0.9235 - val_loss: 0.2030 - val_acc: 0.9384 - val_categorical_accuracy: 0.9384 - val_precision: 0.9517 - val_recall: 0.9267 - val_fmeasure: 0.9390
+Epoch 20/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.2421 - acc: 0.9247 - categorical_accuracy: 0.9247 - precision: 0.9424 - recall: 0.9101 - fmeasure: 0.9260
+Epoch 00020: val_loss improved from 0.20301 to 0.19046, saving model to ./trained_models/LSTM_ATT_RELU.hdf5
+969072/969072 [==============================] - 81s 84us/sample - loss: 0.2421 - acc: 0.9247 - categorical_accuracy: 0.9247 - precision: 0.9424 - recall: 0.9101 - fmeasure: 0.9259 - val_loss: 0.1905 - val_acc: 0.9419 - val_categorical_accuracy: 0.9419 - val_precision: 0.9533 - val_recall: 0.9324 - val_fmeasure: 0.9427
+dict_keys(['loss', 'acc', 'categorical_accuracy', 'precision', 'recall', 'fmeasure', 'val_loss', 'val_acc', 'val_categorical_accuracy', 'val_precision', 'val_recall', 'val_fmeasure'])
+
+[val_loss] [0.8277172528681634, 0.7026682969044167, 0.5614612674469568, 0.4903603049835252, 0.43491855377964944, 0.4031810262323893, 0.37180995802993366, 0.34006096161737615, 0.32178964003626476, 0.2990113538539628, 0.2811681099515906, 0.27226986912167594, 0.25355367120579386, 0.24640208458025825, 0.23878760660278678, 0.22456865543884055, 0.22038011287616027, 0.2092927755493284, 0.20300752593949523, 0.1904604970452568]
+[val_acc] [0.7474716, 0.7855491, 0.8310286, 0.8502345, 0.86917114, 0.8791177, 0.8878198, 0.89913166, 0.9031344, 0.91134435, 0.91620153, 0.9177154, 0.9240678, 0.9258788, 0.9278756, 0.9323056, 0.9331414, 0.936169, 0.9383794, 0.9418621]
+[val_categorical_accuracy] [0.7474716, 0.7855491, 0.8310286, 0.8502345, 0.86917114, 0.8791177, 0.8878198, 0.89913166, 0.9031344, 0.91134435, 0.91620153, 0.9177154, 0.9240678, 0.9258788, 0.9278756, 0.9323056, 0.9331414, 0.936169, 0.9383794, 0.9418621]
+[val_precision] [0.8467573, 0.873528, 0.90225995, 0.91000056, 0.92234504, 0.92319113, 0.9292175, 0.9367848, 0.93349606, 0.9408477, 0.9412986, 0.9404179, 0.9458758, 0.9455337, 0.9442594, 0.94760644, 0.9464921, 0.95059305, 0.9517334, 0.953259]
+[val_recall] [0.67631626, 0.7275308, 0.78143775, 0.80932343, 0.8304507, 0.8492304, 0.8565728, 0.86899954, 0.88066137, 0.88652104, 0.89487123, 0.8995092, 0.904344, 0.9071724, 0.9136121, 0.91930765, 0.921856, 0.92289174, 0.9266503, 0.9323955]
+[val_fmeasure] [0.7519509, 0.7938306, 0.83748806, 0.8566865, 0.8739647, 0.88465124, 0.8913955, 0.90160054, 0.9062971, 0.91286093, 0.91748565, 0.91949946, 0.9246341, 0.92594177, 0.9286759, 0.93323505, 0.9340047, 0.93652886, 0.93901813, 0.9427078]
+
+  		precision    recall  f1-score   support
+
+           0     0.9649    0.9800    0.9724    150901
+           1     0.9916    1.0000    0.9958    109684
+           2     0.8650    0.9866    0.9218     16698
+           3     0.9995    0.9995    0.9995     16414
+           4     0.7859    0.8252    0.8051     16090
+           5     0.7035    0.7476    0.7249      9942
+           6     0.8064    0.6596    0.7256      8196
+           7     0.7605    0.8287    0.7931      7180
+           8     0.9404    0.9036    0.9216      3736
+           9     0.7675    0.7677    0.7676      3754
+          10     0.7541    0.6815    0.7159      3312
+          11     0.8505    0.6678    0.7482      2565
+          12     0.9990    0.9990    0.9990      1985
+          13     0.9820    0.7074    0.8224      2006
+          14     0.7887    0.1342    0.2294      1557
+          15     0.4075    0.0716    0.1218      1508
+          16     0.5000    0.0039    0.0078      1016
+          17     0.8333    0.0064    0.0127       783
+          18     0.7500    0.6191    0.6783       596
+          19     0.9598    0.9695    0.9646       492
+          20     0.4871    0.2635    0.3420       501
+
+
+
+           
+          
+        
+    accuracy                         0.9402    358916
+   macro avg     0.8046    0.6582    0.6795    358916
+weighted avg     0.9365    0.9402    0.9345    358916
+
+precision 0.9364638961771239
+recall 0.9401865617581829
+F1 0.9345104951064672
+precision 0.9401865617581829
+recall 0.9401865617581829
+F1 0.9401865617581829
+Normalized confusion matrix
+<Figure size 1728x1584 with 0 Axes>
+
+Train time: 0:27:01.658536
+Predict time: 0:00:09.695966
+
+
