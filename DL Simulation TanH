@@ -1,0 +1,129 @@
+Train on 969072 samples, validate on 107675 samples
+Epoch 1/20
+969072/969072 [==============================] - ETA: 0s - loss: 1.2439 - acc: 0.6164 - categorical_accuracy: 0.6164 - precision: 0.7618 - recall: 0.4504 - fmeasure: 0.5218
+Epoch 00001: val_loss improved from inf to 0.86481, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 84s 86us/sample - loss: 1.2439 - acc: 0.6164 - categorical_accuracy: 0.6164 - precision: 0.7618 - recall: 0.4504 - fmeasure: 0.5218 - val_loss: 0.8648 - val_acc: 0.7389 - val_categorical_accuracy: 0.7389 - val_precision: 0.8625 - val_recall: 0.6624 - val_fmeasure: 0.7492
+Epoch 2/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.8520 - acc: 0.7455 - categorical_accuracy: 0.7455 - precision: 0.8645 - recall: 0.6710 - fmeasure: 0.7555
+Epoch 00002: val_loss improved from 0.86481 to 0.79896, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.8520 - acc: 0.7455 - categorical_accuracy: 0.7455 - precision: 0.8646 - recall: 0.6710 - fmeasure: 0.7555 - val_loss: 0.7990 - val_acc: 0.7666 - val_categorical_accuracy: 0.7666 - val_precision: 0.8883 - val_recall: 0.6804 - val_fmeasure: 0.7705
+Epoch 3/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.7685 - acc: 0.7728 - categorical_accuracy: 0.7728 - precision: 0.8793 - recall: 0.7015 - fmeasure: 0.7803
+Epoch 00003: val_loss improved from 0.79896 to 0.69841, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.7685 - acc: 0.7728 - categorical_accuracy: 0.7728 - precision: 0.8793 - recall: 0.7015 - fmeasure: 0.7803 - val_loss: 0.6984 - val_acc: 0.7942 - val_categorical_accuracy: 0.7942 - val_precision: 0.8925 - val_recall: 0.7277 - val_fmeasure: 0.8016
+Epoch 4/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.6894 - acc: 0.7939 - categorical_accuracy: 0.7939 - precision: 0.8881 - recall: 0.7304 - fmeasure: 0.8015
+Epoch 00004: val_loss improved from 0.69841 to 0.61236, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.6895 - acc: 0.7939 - categorical_accuracy: 0.7939 - precision: 0.8881 - recall: 0.7304 - fmeasure: 0.8015 - val_loss: 0.6124 - val_acc: 0.8183 - val_categorical_accuracy: 0.8183 - val_precision: 0.9018 - val_recall: 0.7650 - val_fmeasure: 0.8277
+Epoch 5/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.6170 - acc: 0.8153 - categorical_accuracy: 0.8153 - precision: 0.8964 - recall: 0.7572 - fmeasure: 0.8209
+Epoch 00005: val_loss improved from 0.61236 to 0.54188, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.6170 - acc: 0.8154 - categorical_accuracy: 0.8154 - precision: 0.8964 - recall: 0.7573 - fmeasure: 0.8209 - val_loss: 0.5419 - val_acc: 0.8409 - val_categorical_accuracy: 0.8409 - val_precision: 0.9113 - val_recall: 0.7948 - val_fmeasure: 0.8490
+Epoch 6/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.5580 - acc: 0.8336 - categorical_accuracy: 0.8336 - precision: 0.9043 - recall: 0.7823 - fmeasure: 0.8388
+Epoch 00006: val_loss improved from 0.54188 to 0.47501, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.5580 - acc: 0.8336 - categorical_accuracy: 0.8336 - precision: 0.9043 - recall: 0.7823 - fmeasure: 0.8388 - val_loss: 0.4750 - val_acc: 0.8609 - val_categorical_accuracy: 0.8609 - val_precision: 0.9181 - val_recall: 0.8240 - val_fmeasure: 0.8685
+Epoch 7/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.5109 - acc: 0.8477 - categorical_accuracy: 0.8477 - precision: 0.9096 - recall: 0.8030 - fmeasure: 0.8529
+Epoch 00007: val_loss improved from 0.47501 to 0.43322, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.5109 - acc: 0.8477 - categorical_accuracy: 0.8477 - precision: 0.9096 - recall: 0.8030 - fmeasure: 0.8529 - val_loss: 0.4332 - val_acc: 0.8720 - val_categorical_accuracy: 0.8720 - val_precision: 0.9209 - val_recall: 0.8421 - val_fmeasure: 0.8797
+Epoch 8/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4761 - acc: 0.8574 - categorical_accuracy: 0.8574 - precision: 0.9137 - recall: 0.8167 - fmeasure: 0.8625
+Epoch 00008: val_loss improved from 0.43322 to 0.41625, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.4760 - acc: 0.8574 - categorical_accuracy: 0.8574 - precision: 0.9137 - recall: 0.8168 - fmeasure: 0.8625 - val_loss: 0.4163 - val_acc: 0.8756 - val_categorical_accuracy: 0.8756 - val_precision: 0.9183 - val_recall: 0.8490 - val_fmeasure: 0.8823
+Epoch 9/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4514 - acc: 0.8654 - categorical_accuracy: 0.8654 - precision: 0.9173 - recall: 0.8272 - fmeasure: 0.8699
+Epoch 00009: val_loss improved from 0.41625 to 0.38068, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.4514 - acc: 0.8654 - categorical_accuracy: 0.8654 - precision: 0.9173 - recall: 0.8271 - fmeasure: 0.8699 - val_loss: 0.3807 - val_acc: 0.8870 - val_categorical_accuracy: 0.8870 - val_precision: 0.9324 - val_recall: 0.8547 - val_fmeasure: 0.8918
+Epoch 10/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4302 - acc: 0.8717 - categorical_accuracy: 0.8717 - precision: 0.9208 - recall: 0.8357 - fmeasure: 0.8762
+Epoch 00010: val_loss improved from 0.38068 to 0.37006, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.4302 - acc: 0.8717 - categorical_accuracy: 0.8717 - precision: 0.9208 - recall: 0.8357 - fmeasure: 0.8762 - val_loss: 0.3701 - val_acc: 0.8922 - val_categorical_accuracy: 0.8922 - val_precision: 0.9333 - val_recall: 0.8606 - val_fmeasure: 0.8955
+Epoch 11/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.4107 - acc: 0.8776 - categorical_accuracy: 0.8776 - precision: 0.9238 - recall: 0.8431 - fmeasure: 0.8815
+Epoch 00011: val_loss improved from 0.37006 to 0.34578, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 82s 85us/sample - loss: 0.4107 - acc: 0.8776 - categorical_accuracy: 0.8776 - precision: 0.9238 - recall: 0.8430 - fmeasure: 0.8815 - val_loss: 0.3458 - val_acc: 0.8978 - val_categorical_accuracy: 0.8978 - val_precision: 0.9360 - val_recall: 0.8695 - val_fmeasure: 0.9015
+Epoch 12/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3924 - acc: 0.8829 - categorical_accuracy: 0.8829 - precision: 0.9268 - recall: 0.8502 - fmeasure: 0.8868
+Epoch 00012: val_loss improved from 0.34578 to 0.32904, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.3924 - acc: 0.8829 - categorical_accuracy: 0.8829 - precision: 0.9268 - recall: 0.8502 - fmeasure: 0.8868 - val_loss: 0.3290 - val_acc: 0.9044 - val_categorical_accuracy: 0.9044 - val_precision: 0.9427 - val_recall: 0.8752 - val_fmeasure: 0.9077
+Epoch 13/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3772 - acc: 0.8878 - categorical_accuracy: 0.8878 - precision: 0.9293 - recall: 0.8567 - fmeasure: 0.8915
+Epoch 00013: val_loss improved from 0.32904 to 0.32637, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.3772 - acc: 0.8878 - categorical_accuracy: 0.8878 - precision: 0.9293 - recall: 0.8567 - fmeasure: 0.8915 - val_loss: 0.3264 - val_acc: 0.9036 - val_categorical_accuracy: 0.9036 - val_precision: 0.9369 - val_recall: 0.8787 - val_fmeasure: 0.9068
+Epoch 14/20
+969072/969072 [==============================] - ETA: 0s - loss: 0.3633 - acc: 0.8922 - categorical_accuracy: 0.8922 - precision: 0.9318 - recall: 0.8625 - fmeasure: 0.8958
+Epoch 00014: val_loss improved from 0.32637 to 0.30775, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.3633 - acc: 0.8922 - categorical_accuracy: 0.8922 - precision: 0.9318 - recall: 0.8625 - fmeasure: 0.8958 - val_loss: 0.3078 - val_acc: 0.9099 - val_categorical_accuracy: 0.9099 - val_precision: 0.9410 - val_recall: 0.8868 - val_fmeasure: 0.9130
+Epoch 15/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3513 - acc: 0.8958 - categorical_accuracy: 0.8958 - precision: 0.9333 - recall: 0.8673 - fmeasure: 0.8991
+Epoch 00015: val_loss improved from 0.30775 to 0.29346, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.3513 - acc: 0.8958 - categorical_accuracy: 0.8958 - precision: 0.9333 - recall: 0.8673 - fmeasure: 0.8991 - val_loss: 0.2935 - val_acc: 0.9132 - val_categorical_accuracy: 0.9132 - val_precision: 0.9438 - val_recall: 0.8897 - val_fmeasure: 0.9159
+Epoch 16/20
+969072/969072 [==============================] - ETA: 0s - loss: 0.3407 - acc: 0.8989 - categorical_accuracy: 0.8989 - precision: 0.9346 - recall: 0.8717 - fmeasure: 0.9020
+Epoch 00016: val_loss improved from 0.29346 to 0.29138, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.3407 - acc: 0.8989 - categorical_accuracy: 0.8989 - precision: 0.9346 - recall: 0.8717 - fmeasure: 0.9020 - val_loss: 0.2914 - val_acc: 0.9141 - val_categorical_accuracy: 0.9141 - val_precision: 0.9426 - val_recall: 0.8934 - val_fmeasure: 0.9173
+Epoch 17/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3313 - acc: 0.9017 - categorical_accuracy: 0.9017 - precision: 0.9356 - recall: 0.8754 - fmeasure: 0.9045
+Epoch 00017: val_loss improved from 0.29138 to 0.28087, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.3313 - acc: 0.9017 - categorical_accuracy: 0.9017 - precision: 0.9357 - recall: 0.8755 - fmeasure: 0.9045 - val_loss: 0.2809 - val_acc: 0.9173 - val_categorical_accuracy: 0.9173 - val_precision: 0.9459 - val_recall: 0.8958 - val_fmeasure: 0.9202
+Epoch 18/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3233 - acc: 0.9044 - categorical_accuracy: 0.9044 - precision: 0.9367 - recall: 0.8789 - fmeasure: 0.9069
+Epoch 00018: val_loss did not improve from 0.28087
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.3232 - acc: 0.9044 - categorical_accuracy: 0.9044 - precision: 0.9367 - recall: 0.8789 - fmeasure: 0.9069 - val_loss: 0.2853 - val_acc: 0.9153 - val_categorical_accuracy: 0.9153 - val_precision: 0.9409 - val_recall: 0.8945 - val_fmeasure: 0.9171
+Epoch 19/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3142 - acc: 0.9070 - categorical_accuracy: 0.9070 - precision: 0.9377 - recall: 0.8827 - fmeasure: 0.9094
+Epoch 00019: val_loss improved from 0.28087 to 0.26161, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 85us/sample - loss: 0.3142 - acc: 0.9070 - categorical_accuracy: 0.9070 - precision: 0.9377 - recall: 0.8827 - fmeasure: 0.9094 - val_loss: 0.2616 - val_acc: 0.9236 - val_categorical_accuracy: 0.9236 - val_precision: 0.9477 - val_recall: 0.9047 - val_fmeasure: 0.9257
+Epoch 20/20
+968704/969072 [============================>.] - ETA: 0s - loss: 0.3069 - acc: 0.9087 - categorical_accuracy: 0.9087 - precision: 0.9385 - recall: 0.8852 - fmeasure: 0.9111
+Epoch 00020: val_loss improved from 0.26161 to 0.25198, saving model to ./trained_models/LSTM_ATT_Tanh.hdf5
+969072/969072 [==============================] - 83s 86us/sample - loss: 0.3069 - acc: 0.9087 - categorical_accuracy: 0.9087 - precision: 0.9385 - recall: 0.8852 - fmeasure: 0.9111 - val_loss: 0.2520 - val_acc: 0.9264 - val_categorical_accuracy: 0.9264 - val_precision: 0.9486 - val_recall: 0.9090 - val_fmeasure: 0.9283
+dict_keys(['loss', 'acc', 'categorical_accuracy', 'precision', 'recall', 'fmeasure', 'val_loss', 'val_acc', 'val_categorical_accuracy', 'val_precision', 'val_recall', 'val_fmeasure'])
+
+[val_loss] [0.8648129985325292, 0.7989639450370615, 0.698405633184731, 0.6123637626152845, 0.541875207103929, 0.4750079248818937, 0.43321766898973596, 0.4162501746569705, 0.3806843370455225, 0.3700577925373624, 0.34578328681484793, 0.329041205368104, 0.32636741292678706, 0.3077523607252257, 0.2934629564291367, 0.29137834002336715, 0.28086540898148576, 0.28530528679175254, 0.26160628466615, 0.2519753604561319]
+[val_acc] [0.7389273, 0.76661247, 0.79422337, 0.8183051, 0.840873, 0.86091477, 0.87200373, 0.87560713, 0.8869654, 0.89217556, 0.89782214, 0.90435106, 0.9035895, 0.9099141, 0.9131832, 0.9140933, 0.9172881, 0.91529137, 0.9235942, 0.92642677]
+[val_categorical_accuracy] [0.7389273, 0.76661247, 0.79422337, 0.8183051, 0.840873, 0.86091477, 0.87200373, 0.87560713, 0.8869654, 0.89217556, 0.89782214, 0.90435106, 0.9035895, 0.9099141, 0.9131832, 0.9140933, 0.9172881, 0.91529137, 0.9235942, 0.92642677]
+[val_precision] [0.862516, 0.8883231, 0.8924594, 0.9018124, 0.91131705, 0.91811264, 0.9208573, 0.9182567, 0.93238735, 0.9333272, 0.93601066, 0.94268733, 0.9368767, 0.9409506, 0.9438313, 0.94263446, 0.94590956, 0.9408587, 0.9477248, 0.94860744]
+[val_recall] [0.6623607, 0.6803919, 0.72765535, 0.7649744, 0.79475427, 0.8239646, 0.8421198, 0.8490406, 0.85471714, 0.8606041, 0.8695294, 0.87520707, 0.87866384, 0.886758, 0.8896561, 0.89336395, 0.8958129, 0.89446753, 0.90473825, 0.90895045]
+[val_fmeasure] [0.74924755, 0.7705182, 0.8016022, 0.8277391, 0.8490247, 0.8684723, 0.87970984, 0.8822736, 0.89184314, 0.89547163, 0.9015235, 0.9076764, 0.9068155, 0.9130335, 0.91592664, 0.9173268, 0.92016184, 0.91706663, 0.92572266, 0.9283451]
+              precision    recall  f1-score   support
+
+           0     0.9430    0.9860    0.9640    150901
+           1     0.9939    0.9996    0.9967    109684
+           2     0.8334    0.9726    0.8977     16698
+           3     0.9995    0.9994    0.9995     16414
+           4     0.7776    0.7268    0.7513     16090
+           5     0.6806    0.7075    0.6938      9942
+           6     0.7139    0.5301    0.6085      8196
+           7     0.7569    0.8038    0.7796      7180
+           8     0.9594    0.8846    0.9205      3736
+           9     0.6379    0.5876    0.6118      3754
+          10     0.5003    0.4934    0.4968      3312
+          11     0.7597    0.2441    0.3694      2565
+          12     1.0000    1.0000    1.0000      1985
+          13     0.9418    0.6615    0.7772      2006
+          14     0.4070    0.1503    0.2195      1557
+          15     0.2849    0.0351    0.0626      1508
+          16     0.0000    0.0000    0.0000      1016
+          17     0.0000    0.0000    0.0000       783
+          18     0.7850    0.2634    0.3945       596
+          19     0.9093    0.8760    0.8923       492
+          20     0.5152    0.0339    0.0637       501
+
+
+ 
+
+    accuracy                         0.9247    358916
+   macro avg     0.6857    0.5693    0.5952    358916
+weighted avg     0.9136    0.9247    0.9160    358916
+
+precision 0.9135888594682695
+recall 0.9246759687503483
+F1 0.9160233321810882
+precision 0.9246759687503483
+recall 0.9246759687503483
+F1 0.9246759687503483
+
+
+
